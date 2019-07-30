@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vegetables">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="950dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="950dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="190dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="190dp"
+                        app:srcCompat="@drawable/potato" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginEnd="48dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Potato"
+                        android:textColor="@color/orange"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_below="@+id/textView"
+                        android:layout_marginEnd="85dp"
+                        android:text="    5kg" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="340dp"
+                        android:layout_marginTop="100dp"
+                        android:text="1$"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:id="@+id/ptb"
+                        android:background="@color/orange"
+                        android:layout_height="50dp"
+                        android:text="Add"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="140dp"
+                        android:textColor="#ffff"
+                        android:textSize="25sp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="195dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="190dp"
+                        app:srcCompat="@drawable/tomatoes" />
+
+                    <TextView
+                        android:layout_width="181dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Tomatoes"
+                        android:textColor="@color/orange"
+                        android:textSize="35sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="340dp"
+                        android:layout_marginTop="60dp"
+                        android:text="1kg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="320dp"
+                        android:layout_marginTop="100dp"
+                        android:text="45B"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:background="@color/orange"
+                        android:id="@+id/tomatbb"
+                        android:layout_height="50dp"
+                        android:text="Add"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="140dp"
+                        android:textColor="#ffff"
+                        android:textSize="25sp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="390dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="190dp"
+                        app:srcCompat="@drawable/onons" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Onions "
+                        android:textColor="@color/orange"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="340dp"
+                        android:layout_marginTop="60dp"
+                        android:text="5kg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="340dp"
+                        android:layout_marginTop="100dp"
+                        android:text="2$"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:background="@color/orange"
+                        android:layout_height="50dp"
+                        android:text="Add"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="140dp"
+                        android:id="@+id/oninb"
+
+                        android:textColor="#ffff"
+                        android:textSize="25sp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="585dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="190dp"
+                        app:srcCompat="@drawable/cucumber" />
+
+                    <TextView
+                        android:layout_width="172dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Fresh Cucumber"
+                        android:textColor="@color/orange"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="340dp"
+                        android:layout_marginTop="60dp"
+                        android:text="10kg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="340dp"
+                        android:layout_marginTop="100dp"
+                        android:text="2$"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:id="@+id/cucemb"
+                        android:background="@color/orange"
+                        android:layout_height="50dp"
+                        android:text="Add"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="140dp"
+                        android:textColor="#ffff"
+                        android:textSize="25sp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="765dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="190dp"
+                        app:srcCompat="@drawable/lemons" />
+
+                    <TextView
+                        android:layout_width="172dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Lemons"
+                        android:textColor="@color/orange"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="340dp"
+                        android:layout_marginTop="60dp"
+                        android:text="2kg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="340dp"
+                        android:layout_marginTop="100dp"
+                        android:text="2$"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:background="@color/orange"
+                        android:layout_height="50dp"
+                        android:id="@+id/lemonb"
+                        android:text="Add"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="140dp"
+                        android:textColor="#ffff"
+                        android:textSize="25sp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

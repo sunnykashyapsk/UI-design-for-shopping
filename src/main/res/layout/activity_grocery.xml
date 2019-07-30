@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".grocery">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="190dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                app:srcCompat="@drawable/aata" />
+
+            <TextView
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="12dp"
+                android:text="Aashirvaad Aata"
+                android:textColor="@color/orange"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="60dp"
+                android:text="10kg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="100dp"
+                android:text="7$"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="200dp"
+                android:id="@+id/aatab"
+                android:background="@color/orange"
+                android:layout_height="50dp"
+                android:text="Add"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="140dp"
+                android:textColor="#ffff"
+                android:textSize="25sp"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="195dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                app:srcCompat="@drawable/rice" />
+
+            <TextView
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="12dp"
+                android:text="Daawat Rice"
+                android:textColor="@color/orange"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="60dp"
+                android:text="10kg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="100dp"
+                android:text="21$"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="200dp"
+                android:background="@color/orange"
+                android:layout_height="50dp"
+                android:text="Add"
+                android:id="@+id/riceb"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="140dp"
+                android:textColor="#ffff"
+                android:textSize="25sp"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="390dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                app:srcCompat="@drawable/safoola" />
+
+            <TextView
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="12dp"
+                android:text="Safola Oil"
+                android:textColor="@color/orange"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="60dp"
+                android:text="5L" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="100dp"
+                android:text="16$"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="200dp"
+                android:id="@+id/oibb"
+
+                android:background="@color/orange"
+                android:layout_height="50dp"
+                android:text="Add"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="140dp"
+                android:textColor="#ffff"
+                android:textSize="25sp"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
